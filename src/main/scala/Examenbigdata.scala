@@ -18,8 +18,15 @@ object Examenbigdata {
     "http://www.lerevenu.com/"->"",
     "http://www.cadre-dirigfant-magasin.com/"->"payant",
     "http://www.silicom.fr/services/contact#annoncer"->"payant",
-    "http://www.changebilcadre-dirigfant-magasin.com/"->"payant"
+    "http://www.changebilcadre-dirigfant-magasin.com/"->"payant",
+    "http://www.channelbiz.fr/nous-contacter/"->"",
+    "http://www.itespresso.fr/"->"",
+    "http://www.industrie-mag.com/article4.html"->"invite",
+    "http://www.jesuisundev.com/article-invite/"->"invite",
+    "http://www.numeraa.com/"->""
     )
+    states.toList()
+
 
   }
   //13
@@ -31,7 +38,12 @@ object Examenbigdata {
     "http://www.lerevenu.com/"->"",
     "http://www.cadre-dirigfant-magasin.com/"->"payant",
     "http://www.silicom.fr/services/contact#annoncer"->"payant",
-    "http://www.changebilcadre-dirigfant-magasin.com/"->"payant"
+    "http://www.changebilcadre-dirigfant-magasin.com/"->"payant",
+    "http://www.channelbiz.fr/nous-contacter/"->"",
+    "http://www.itespresso.fr/"->"",
+    "http://www.industrie-mag.com/article4.html"->"invite",
+    "http://www.jesuisundev.com/article-invite/"->"invite",
+    "http://www.numeraa.com/"->""
     )
     sta.map(l => {
       if (l._1.startsWith("https://www.")){l._1.substring(12) }
